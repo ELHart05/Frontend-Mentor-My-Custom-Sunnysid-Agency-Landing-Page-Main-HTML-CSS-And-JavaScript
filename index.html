@@ -8,19 +8,26 @@
     <link rel="icon" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="style/styles.css">
     <title>Frontend Mentor | Sunnyside Agency Landing Page</title>
-    <script src="https://kit.fontawesome.com/687641562e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
         <div class="nav-bar">
             <img src="images/logo.png" alt="#" class="logo">
-            <nav>
+            <nav class="nav-desk">
                 <a href="#" class="about">About</a>
                 <a href="#" class="services">Services</a>
                 <a href="#" class="projects">Projects</a>
                 <a href="#" class="contact">CONTACT</a>
             </nav>
+            <nav class="nav-mob">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Projects</a>
+                <a href="#">CONTACT</a>
+            </nav>
+            <input type="checkbox" id="checkbox" class="checkbox">
+            <label for="checkbox"><img src="images/icon-hamburger.png" alt="#" class="hamburger"></label>
         </div>
         <div class="main">
             <h1 class="title">WE ARE CREATIVES</h1>
@@ -32,6 +39,7 @@
     <section class="section1">
         <div class="r1">
             <img src="images/desktop/image-transform.jpg" alt="#" class="egg">
+            <img src="images/mobile/image-transform.jpg" alt="#" class="egg-mob">
         </div>
         <div class="l1">
             <h3 class="title-of-section1">Transform your brand</h3>
@@ -45,6 +53,7 @@
     <section class="section2">
         <div class="r2">
             <img src="images/desktop/image-stand-out.jpg" alt="#" class="juice">
+            <img src="images/mobile/image-stand-out.jpg" alt="#" class="juice-mob">
         </div>
         <div class="l2">
             <h3 class="title-of-section2">Stand out to the right audience</h3>
@@ -111,6 +120,14 @@
         <img src="images/desktop/image-gallery-orange.jpg" alt="#" class="orangina">
         <img src="images/desktop/image-gallery-cone.jpg" alt="#" class="corn">
         <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="#" class="sugar">
+        <div class="container1">
+            <img src="images/mobile/image-gallery-milkbottles.jpg" alt="#" class="bottles-mob">
+            <img src="images/mobile/image-gallery-cone.jpg" alt="#" class="corn-mob">
+        </div>
+        <div class="container2">
+            <img src="images/mobile/image-gallery-orange.jpg" alt="#" class="orangina-mob">
+            <img src="images/mobile/image-gallery-sugar-cubes.jpg" alt="#" class="sugar-mob">
+        </div>
     </section>
 
     <footer>
@@ -121,11 +138,11 @@
             <a href="#" class="projects2">Projects</a>
         </div>
         <div class="sm">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <a href="https://github.com/ELHart05"><i class="fa-brands fa-github"></i></a>
+            <img src="images/facebook-square-brands.svg" alt="#" class="facebook">
+            <img src="images/instagram-brands.svg" alt="#" class="instagram">
+            <img src="images/twitter-brands.svg" alt="#" class="twitter">
+            <img src="images/pinterest-brands.svg" alt="#" class="pinterest">
+            <img src="images/github-brands.svg" alt="#" class="github">
         </div>
         <p class="trademark">&copy;Okba All Right Reserved.</p>
     </footer>
