@@ -30,7 +30,6 @@ header {
     background-image: url(../images/desktop/image-header.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -61,6 +60,7 @@ header {
     font-family: 'Fraunces', serif;
     font-weight: 900;
     color: white;
+    text-align: center;
 }
 
 nav>a {
@@ -242,6 +242,7 @@ section>div>h4 {
     color: hsl(167, 40%, 24%);
     letter-spacing: 7px;
     font-size: 27px;
+    text-align: center;
 }
 
 .wrapper {
@@ -459,6 +460,11 @@ footer>img {
     .l1,
     .l2 {
         height: 575px;
+    }
+
+    .section1>div>h3,
+    .section2>div>h3 {
+        padding: 0 15px;
     }
 
     .l1>h3,
