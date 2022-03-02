@@ -1,6 +1,6 @@
 # Frontend Mentor My Custom Sunnysid Agency Landing Page Main
 
-![_C__Users_okbaa_Desktop_HTML%20CSS_FRONTENDMENTOR%20Custom%20Sunnyside%20Agency%20Landing%20Page%20Main%20Website%20Project_index html](https://user-images.githubusercontent.com/96151694/155038184-57fa4274-6493-46ba-afc7-a3ecb00574a4.png)
+![_C__Users_okbaa_Desktop_HTML%20CSS%20JS_FRONTENDMENTOR%20Custom%20Sunnyside%20Agency%20Landing%20Page%20Main%20Website%20Project_index html](https://user-images.githubusercontent.com/96151694/156459219-f8889f0d-3739-40d2-a394-df99d2031975.png)
 
 Simple Challenge By FRONTEND MENTOR Using HTML CSS And JavaScript ...
 
