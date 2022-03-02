@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+/*the website is irresponsive from 335 px*/
+
 * {
     margin: 0;
     padding: 0;
@@ -71,7 +73,10 @@ nav>a {
     margin-right: 35px;
     transition: 1s;
 }
-nav>a:hover{color: black;}
+
+nav>a:hover {
+    color: black;
+}
 
 .logo {
     cursor: pointer;
@@ -177,6 +182,7 @@ section>div>h4 {
     line-height: 1.5;
     color: black;
     text-align: center;
+    height: 20px;
 }
 
 .paragraph-of-section3-right {
@@ -242,7 +248,7 @@ section>div>h4 {
 
 .section4>h2 {
     font-family: 'Fraunces', serif;
-    margin-top: 200px;
+    margin-top: 175px;
     color: hsl(167, 40%, 24%);
     letter-spacing: 7px;
     font-size: 27px;
@@ -283,6 +289,11 @@ section>div>h4 {
     font-size: 18px;
     line-height: 30px;
     padding: 0 15px;
+}
+
+.left>p,
+.right>p {
+    height: 130px;
 }
 
 .wrapper>div>h4 {
@@ -371,7 +382,7 @@ footer>img {
 }
 
 
-.sm>img{
+.sm>img {
     margin: 0 15px;
     height: 30px;
     width: 30px;
@@ -387,8 +398,10 @@ footer>img {
 .trademark {
     margin-top: 35px;
     font-family: 'Barlow', sans-serif;
+    letter-spacing: 2px;
     color: black;
     padding: 15px 0;
+    text-align: center;
 }
 
 
@@ -424,7 +437,7 @@ footer>img {
         padding: 30px 5px 30px 21px;
     }
 
-    .navmobedit {
+    .navmob-edit {
         position: absolute;
         display: flex;
         align-items: center;
@@ -498,15 +511,6 @@ footer>img {
         font-size: 45px;
     }
 
-    .l3 {
-        background-image: url(../images/mobile/image-photography.jpg);
-    }
-
-    .r3 {
-        background-image: url(../images/mobile/image-graphic-design.jpg);
-        min-height: 600px;
-    }
-
     .section1,
     .section2,
     .section3,
@@ -572,6 +576,11 @@ footer>img {
         font-size: 20px;
     }
 
+
+    .section3>div>p {
+        height: 150px;
+    }
+
     .section4>.wrapper {
         padding-bottom: 120px;
     }
@@ -596,7 +605,7 @@ footer>img {
     }
 
     .section4>.wrapper>div>p {
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 40px;
     }
 

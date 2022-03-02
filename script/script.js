@@ -4,8 +4,8 @@ const navmob = document.querySelector('.nav-mob');
 const arrow = document.querySelector('.arrow');
 const triangle = document.querySelector('.triangle');
 
-icon.onclick = function ss() {
+icon.onclick = function nav_mob_shower() {
     arrow.classList.toggle('arrow-hide');
     triangle.classList.toggle('triangle-add');
-    navmob.classList.toggle('navmobedit');
+    navmob.classList.toggle('navmob-edit');
 }
