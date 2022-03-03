@@ -324,6 +324,7 @@ section>div>h4 {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
+    width: 100%;
 }
 
 .section5>img {
