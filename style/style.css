@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
-/*the website is irresponsive from 335 px*/
+/*the website is irresponsive from 300 px*/
 
 * {
     margin: 0;
@@ -505,7 +505,7 @@ footer>img {
     .title {
         text-align: center;
         padding: 0 25px;
-        font-size: 45px;
+        font-size: 38px;
     }
 
     .section1,
@@ -606,14 +606,19 @@ footer>img {
         margin-top: 40px;
     }
 
+    .r3>h4 {
+        margin-top: 140px;
+    }
+
     .section4>.wrapper>div>img {
         height: 120px;
         width: 120px;
     }
 
     .section4>.wrapper>div>h4 {
-        margin-top: 45px;
+        margin-top: 120px;
     }
+
 
     .section4>.wrapper>div>h4>span:first-child {
         font-size: 25px;
