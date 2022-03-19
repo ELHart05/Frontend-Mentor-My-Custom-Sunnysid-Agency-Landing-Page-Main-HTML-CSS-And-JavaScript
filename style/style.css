@@ -285,19 +285,21 @@ section>div>h4 {
     color: black;
     font-family: 'Barlow', sans-serif;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 30px;
     font-size: 18px;
     line-height: 30px;
     padding: 0 15px;
     height: 130px;
 }
 
+
 .wrapper>div>h4 {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: center;
 }
+
 
 .line11,
 .line12,
@@ -408,7 +410,7 @@ footer>img {
     }
 }
 
-@media (max-width: 930px) and (min-width: 100px) {
+@media (max-width: 930px) and (min-width: 550px) {
 
     .egg-mob,
     .juice-mob,
@@ -491,6 +493,7 @@ footer>img {
     .hamburger:hover {
         transform: scale(1.1);
     }
+
 
 
     .arrow {
@@ -621,9 +624,479 @@ footer>img {
     }
 
     .section4>.wrapper>div>h4 {
-        margin-top: 120px;
+        margin-top: 0px;
     }
 
+
+    .section4>.wrapper>div>h4>span:first-child {
+        font-size: 25px;
+    }
+
+    .section4>.wrapper>div>h4>span:last-child {
+        font-size: 20px;
+    }
+
+    .section5>img {
+        width: 50%;
+    }
+
+    .footer-nav {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 550px) and (min-width: 400px) {
+
+    .egg-mob,
+    .juice-mob,
+    .bottles-mob,
+    .orangina-mob,
+    .corn-mob,
+    .sugar-mob,
+    .hamburger {
+        display: flex;
+    }
+
+    .egg,
+    .juice,
+    .bottles,
+    .orangina,
+    .corn,
+    .sugar,
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 30px 5px 30px 21px;
+    }
+
+    .navmob-edit {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 90%;
+        height: 450px;
+        top: 15%;
+        left: 5%;
+    }
+
+
+
+    .triangle-add {
+        display: flex;
+        border: 1px solid white;
+        background-color: white;
+        top: 10%;
+        right: 5%;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+        transform: rotate(270deg);
+    }
+
+    .nav-mob>a {
+        color: grey;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 37px;
+        transition: 1s;
+    }
+
+    .nav-mob>a:hover {
+        color: black;
+    }
+
+    .nav-mob>a:last-child {
+        background-color: rgb(251, 255, 0);
+        margin-bottom: 30px;
+        padding: 20px 50px;
+    }
+
+    .hamburger {
+        margin-right: 17px;
+        height: 30px;
+        width: 30px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .hamburger:hover {
+        transform: scale(1.1);
+    }
+
+
+
+    .arrow {
+        margin-top: 220px;
+    }
+
+
+    .arrow-hide {
+        display: none;
+    }
+
+    .title {
+        text-align: center;
+        padding: 0 25px;
+        font-size: 38px;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4>.wrapper {
+        flex-direction: column;
+    }
+
+    .section1>div,
+    .section2>div,
+    .section3>div {
+        width: 100%;
+    }
+
+    .l1,
+    .l2 {
+        height: 575px;
+    }
+
+    .section1>div>h3,
+    .section2>div>h3 {
+        padding: 0 15px;
+    }
+
+    .l1>h3,
+    .l1>a,
+    .l1>p,
+    .l2>h3,
+    .l2>a,
+    .l2>p,
+    .l3>h4,
+    .l3>p,
+    .r3>h4,
+    .r3>p {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title-of-section3-right {
+        font-size: 40px;
+    }
+
+    .l1>h3,
+    .l2>h3 .l3>h4,
+    .r3>h4 {
+        font-size: 40px;
+    }
+
+    .l1>p,
+    .l2>p {
+        padding: 0 25px;
+        font-size: 25px;
+    }
+
+    .l3>p,
+    .r3>p {
+        padding: 0 25px;
+        font-size: 22px;
+    }
+
+    .l3>p,
+    .r3>p {
+        padding: 0 35px;
+    }
+
+    .l1>a {
+        font-size: 20px;
+    }
+
+
+    .section3>div>p {
+        height: 150px;
+    }
+
+    .section4>.wrapper {
+        padding-bottom: 120px;
+    }
+
+    .section4>.wrapper>div {
+        width: 100%;
+    }
+
+    .section4>h2 {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section4>.wrapper>div {
+        margin: 0;
+    }
+
+    .client2,
+    .client3 {
+        margin-top: 100px;
+    }
+
+    .section4>.wrapper>div>p {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .r3>h4 {
+        margin-top: 140px;
+        padding: 0 20px;
+    }
+
+    .section4>.wrapper>div>img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .section4>.wrapper>div>h4 {
+        margin-top: 60px;
+    }
+
+
+    .section4>.wrapper>div>h4>span:first-child {
+        font-size: 25px;
+    }
+
+    .section4>.wrapper>div>h4>span:last-child {
+        font-size: 20px;
+    }
+
+    .section5>img {
+        width: 50%;
+    }
+
+    .footer-nav {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 100px) {
+
+    .egg-mob,
+    .juice-mob,
+    .bottles-mob,
+    .orangina-mob,
+    .corn-mob,
+    .sugar-mob,
+    .hamburger {
+        display: flex;
+    }
+
+    .egg,
+    .juice,
+    .bottles,
+    .orangina,
+    .corn,
+    .sugar,
+    .nav-desk {
+        display: none;
+    }
+
+    .nav-bar {
+        padding: 30px 5px 30px 21px;
+    }
+
+    .navmob-edit {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        width: 90%;
+        height: 450px;
+        top: 15%;
+        left: 5%;
+    }
+
+
+
+    .triangle-add {
+        display: flex;
+        border: 1px solid white;
+        background-color: white;
+        top: 10%;
+        right: 5%;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+        transform: rotate(270deg);
+    }
+
+    .nav-mob>a {
+        color: grey;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 37px;
+        transition: 1s;
+    }
+
+    .nav-mob>a:hover {
+        color: black;
+    }
+
+    .nav-mob>a:last-child {
+        background-color: rgb(251, 255, 0);
+        margin-bottom: 30px;
+        padding: 20px 50px;
+    }
+
+    .hamburger {
+        margin-right: 17px;
+        height: 30px;
+        width: 30px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .hamburger:hover {
+        transform: scale(1.1);
+    }
+
+
+
+    .arrow {
+        margin-top: 220px;
+    }
+
+
+    .arrow-hide {
+        display: none;
+    }
+
+    .title {
+        text-align: center;
+        padding: 0 25px;
+        font-size: 38px;
+    }
+
+    .section1,
+    .section2,
+    .section3,
+    .section4>.wrapper {
+        flex-direction: column;
+    }
+
+    .section1>div,
+    .section2>div,
+    .section3>div {
+        width: 100%;
+    }
+
+    .l1,
+    .l2 {
+        height: 575px;
+    }
+
+    .section1>div>h3,
+    .section2>div>h3 {
+        padding: 0 15px;
+    }
+
+    .l1>h3,
+    .l1>a,
+    .l1>p,
+    .l2>h3,
+    .l2>a,
+    .l2>p,
+    .l3>h4,
+    .l3>p,
+    .r3>h4,
+    .r3>p {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title-of-section3-right {
+        font-size: 40px;
+    }
+
+    .l1>h3,
+    .l2>h3 .l3>h4,
+    .r3>h4 {
+        font-size: 40px;
+    }
+
+    .l1>p,
+    .l2>p {
+        padding: 0 25px;
+        font-size: 25px;
+    }
+
+    .l3>p,
+    .r3>p {
+        padding: 0 25px;
+        font-size: 22px;
+    }
+
+    .l3>p,
+    .r3>p {
+        padding: 0 35px;
+    }
+
+    .l1>a {
+        font-size: 20px;
+    }
+
+
+    .section3>div>p {
+        height: 150px;
+    }
+
+    .section4>.wrapper {
+        padding-bottom: 120px;
+    }
+
+    .section4>.wrapper>div {
+        width: 100%;
+    }
+
+    .section4>h2 {
+        margin-top: 80px;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section4>.wrapper>div {
+        margin: 0;
+    }
+
+    .client2,
+    .client3 {
+        margin-top: 100px;
+    }
+
+    .section4>.wrapper>div>p {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .r3>h4 {
+        margin-top: 140px;
+        padding: 0 20px;
+    }
+
+    .section4>.wrapper>div>img {
+        height: 120px;
+        width: 100px;
+    }
+
+    .section4>.wrapper>div>h4 {
+        margin-top: 150px;
+    }
 
     .section4>.wrapper>div>h4>span:first-child {
         font-size: 25px;
