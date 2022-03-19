@@ -546,6 +546,10 @@ footer>img {
         padding: 0;
     }
 
+    .title-of-section3-right {
+        font-size: 40px;
+    }
+
     .l1>h3,
     .l2>h3 .l3>h4,
     .r3>h4 {
