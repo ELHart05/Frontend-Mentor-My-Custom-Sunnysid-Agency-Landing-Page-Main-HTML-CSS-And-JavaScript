@@ -1021,6 +1021,10 @@ footer>img {
         padding: 0;
     }
 
+    .section3>.r3>h4 {
+        color: black;
+    }
+
     .title-of-section3-right {
         font-size: 40px;
     }
