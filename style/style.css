@@ -360,6 +360,10 @@ footer>img {
     font-size: 25px;
 }
 
+.footer-logo {
+    cursor: pointer;
+}
+
 .footer-nav>a:first-child {
     margin-right: 15px;
 }
@@ -369,7 +373,7 @@ footer>img {
 }
 
 .footer-nav>a:hover {
-    color: white;
+    color: black;
 }
 
 
@@ -382,17 +386,16 @@ footer>img {
 }
 
 
-.sm>img {
+i {
     margin: 0 10px;
-    height: 20px;
-    width: 30px;
+    font-size: 28px;
     cursor: pointer;
-    filter: invert(0.5) sepia(1) saturate(126) hue-rotate(175deg);
+    color: hsl(167, 40%, 24%);
     transition: 0.3s;
 }
 
-.sm>img:hover {
-    filter: invert(1) sepia(0) saturate(59) hue-rotate(-75deg);
+i:hover {
+    color: white;
 }
 
 .trademark {
