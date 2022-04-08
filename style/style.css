@@ -640,6 +640,11 @@ i:hover {
         font-size: 20px;
     }
 
+
+    .section3>.r3>h4 {
+        color: black;
+    }
+
     .section5>img {
         width: 50%;
     }
@@ -874,6 +879,10 @@ i:hover {
 
     .section4>.wrapper>div>h4>span:last-child {
         font-size: 20px;
+    }
+
+    .section3>.r3>h4 {
+        color: black;
     }
 
     .section5>img {
