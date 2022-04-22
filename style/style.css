@@ -440,7 +440,7 @@ i:hover {
         padding: 30px 5px 30px 21px;
     }
 
-    .navmob-edit {
+    .nav-mob {
         position: absolute;
         display: flex;
         align-items: center;
@@ -450,22 +450,31 @@ i:hover {
         width: 90%;
         height: 450px;
         top: 15%;
-        left: 5%;
+        right: -150%;
+        transition: 1.5s;
     }
 
+    .navmob-edit {
+        right: 5%;
+    }
 
-
-    .triangle-add {
+    .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
         top: 10%;
-        right: 5%;
+        right: -150%;
         height: 40px;
         width: 40px;
         position: absolute;
         clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
         transform: rotate(270deg);
+        transition: 1.5s;
+    }
+
+
+    .triangle-add {
+        right: 5%;
     }
 
     .nav-mob>a {
@@ -681,7 +690,7 @@ i:hover {
         padding: 30px 5px 30px 21px;
     }
 
-    .navmob-edit {
+    .nav-mob {
         position: absolute;
         display: flex;
         align-items: center;
@@ -691,22 +700,31 @@ i:hover {
         width: 90%;
         height: 450px;
         top: 15%;
-        left: 5%;
+        right: -150%;
+        transition: 1.5s;
     }
 
+    .navmob-edit {
+        right: 5%;
+    }
 
-
-    .triangle-add {
+    .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
         top: 10%;
-        right: 5%;
+        right: -150%;
         height: 40px;
         width: 40px;
         position: absolute;
         clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
         transform: rotate(270deg);
+        transition: 1.5s;
+    }
+
+
+    .triangle-add {
+        right: 5%;
     }
 
     .nav-mob>a {
@@ -920,7 +938,7 @@ i:hover {
         padding: 30px 5px 30px 21px;
     }
 
-    .navmob-edit {
+    .nav-mob {
         position: absolute;
         display: flex;
         align-items: center;
@@ -930,22 +948,31 @@ i:hover {
         width: 90%;
         height: 450px;
         top: 15%;
-        left: 5%;
+        right: -150%;
+        transition: 1.5s;
     }
 
+    .navmob-edit {
+        right: 5%;
+    }
 
-
-    .triangle-add {
+    .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
         top: 10%;
-        right: 5%;
+        right: -150%;
         height: 40px;
         width: 40px;
         position: absolute;
         clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
         transform: rotate(270deg);
+        transition: 1.5s;
+    }
+
+
+    .triangle-add {
+        right: 5%;
     }
 
     .nav-mob>a {
