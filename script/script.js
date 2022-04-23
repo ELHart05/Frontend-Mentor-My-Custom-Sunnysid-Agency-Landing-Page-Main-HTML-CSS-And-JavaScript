@@ -2,6 +2,7 @@ const icon = document.querySelector('.hamburger');
 const navmob = document.querySelector('.nav-mob');
 const arrow = document.querySelector('.arrow');
 const triangle = document.querySelector('.triangle');
+const body = document.querySelector('body');
 
 //functionto hide the arrow back the nav mob
 function arrowhide() {
@@ -10,7 +11,7 @@ function arrowhide() {
 
 //appear the nav mob with animation and also hiding the arrow with timout of 0.3s
 icon.onclick = function nav_mob_shower() {
-    setTimeout(arrowhide,300);
+    setTimeout(arrowhide, 600);
     triangle.classList.toggle('triangle-add');
     navmob.classList.toggle('navmob-edit');
 }

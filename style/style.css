@@ -11,9 +11,7 @@
 
 body {
     background-color: rgb(255, 246, 246);
-    overflow-x: hidden;
 }
-
 
 .egg-mob,
 .juice-mob,
@@ -167,7 +165,7 @@ section>div>.learn-of-section2:hover {
 }
 
 section>.l1>*,
-section>.l2>* {
+section>.r2>* {
     padding-left: 20%;
 }
 
@@ -190,18 +188,17 @@ section>div>h4 {
     padding: 0;
 }
 
-.section3>.l3>p,
-.section3>.l3>h4 {
+.section3>.r3>p,
+.section3>.r3>h4 {
     color: hsl(198, 62%, 26%);
 }
 
-.section3>.r3>p,
-.section3>.r3>h4 {
+.section3>.l3>p,
+.section3>.l3>h4 {
     color: hsl(167, 40%, 24%);
 }
 
-.l3 {
-
+.r3 {
     background-image: url(../images/desktop/image-photography.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,10 +206,10 @@ section>div>h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 630px;
 }
 
-.r3 {
+.l3 {
     background-image: url(../images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +217,7 @@ section>div>h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 630px;
 }
 
 
@@ -327,7 +324,7 @@ section>div>h4 {
 }
 
 .section5>img {
-    width: 25%;
+    width: calc(100vw / 4);
 }
 
 footer {
@@ -450,21 +447,21 @@ i:hover {
         background-color: white;
         width: 90%;
         height: 450px;
-        top: 15%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         transition: 1.5s;
     }
 
     .navmob-edit {
-        right: 5%;
+        top: 15%;
     }
 
     .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
-        top: 10%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         height: 40px;
         width: 40px;
         position: absolute;
@@ -475,7 +472,7 @@ i:hover {
 
 
     .triangle-add {
-        right: 5%;
+        top: 10%;
     }
 
     .nav-mob>a {
@@ -539,7 +536,7 @@ i:hover {
     }
 
     .l1,
-    .l2 {
+    .r2 {
         height: 575px;
     }
 
@@ -551,13 +548,13 @@ i:hover {
     .l1>h3,
     .l1>a,
     .l1>p,
-    .l2>h3,
-    .l2>a,
-    .l2>p,
-    .l3>h4,
-    .l3>p,
+    .r2>h3,
+    .r2>a,
+    .r2>p,
     .r3>h4,
-    .r3>p {
+    .r3>p,
+    .l3>h4,
+    .l3>p {
         text-align: center;
         width: 100%;
         padding: 0;
@@ -568,25 +565,25 @@ i:hover {
     }
 
     .l1>h3,
-    .l2>h3 .l3>h4,
-    .r3>h4 {
+    .r2>h3 .r3>h4,
+    .l3>h4 {
         font-size: 40px;
     }
 
     .l1>p,
-    .l2>p {
+    .r2>p {
         padding: 0 25px;
         font-size: 25px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 25px;
         font-size: 22px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 35px;
     }
 
@@ -627,7 +624,7 @@ i:hover {
         margin-top: 40px;
     }
 
-    .r3>h4 {
+    .l3>h4 {
         margin-top: 140px;
         padding: 0 20px;
     }
@@ -651,12 +648,12 @@ i:hover {
     }
 
 
-    .section3>.r3>h4 {
+    .section3>.l3>h4 {
         color: black;
     }
 
     .section5>img {
-        width: 50%;
+        width: calc(100vw / 2);
     }
 
     .footer-nav {
@@ -700,21 +697,21 @@ i:hover {
         background-color: white;
         width: 90%;
         height: 450px;
-        top: 15%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         transition: 1.5s;
     }
 
     .navmob-edit {
-        right: 5%;
+        top: 15%;
     }
 
     .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
-        top: 10%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         height: 40px;
         width: 40px;
         position: absolute;
@@ -725,7 +722,7 @@ i:hover {
 
 
     .triangle-add {
-        right: 5%;
+        top: 10%;
     }
 
     .nav-mob>a {
@@ -789,7 +786,7 @@ i:hover {
     }
 
     .l1,
-    .l2 {
+    .r2 {
         height: 575px;
     }
 
@@ -801,13 +798,13 @@ i:hover {
     .l1>h3,
     .l1>a,
     .l1>p,
-    .l2>h3,
-    .l2>a,
-    .l2>p,
-    .l3>h4,
-    .l3>p,
+    .r2>h3,
+    .r2>a,
+    .r2>p,
     .r3>h4,
-    .r3>p {
+    .r3>p,
+    .l3>h4,
+    .l3>p {
         text-align: center;
         width: 100%;
         padding: 0;
@@ -818,25 +815,25 @@ i:hover {
     }
 
     .l1>h3,
-    .l2>h3 .l3>h4,
-    .r3>h4 {
+    .r2>h3 .r3>h4,
+    .l3>h4 {
         font-size: 40px;
     }
 
     .l1>p,
-    .l2>p {
+    .r2>p {
         padding: 0 25px;
         font-size: 25px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 25px;
         font-size: 22px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 35px;
     }
 
@@ -877,7 +874,7 @@ i:hover {
         margin-top: 40px;
     }
 
-    .r3>h4 {
+    .l3>h4 {
         margin-top: 140px;
         padding: 0 20px;
     }
@@ -900,12 +897,12 @@ i:hover {
         font-size: 20px;
     }
 
-    .section3>.r3>h4 {
+    .section3>.l3>h4 {
         color: black;
     }
 
     .section5>img {
-        width: 50%;
+        width: calc(100vw / 2);
     }
 
     .footer-nav {
@@ -948,21 +945,21 @@ i:hover {
         background-color: white;
         width: 90%;
         height: 450px;
-        top: 15%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         transition: 1.5s;
     }
 
     .navmob-edit {
-        right: 5%;
+        top: 15%;
     }
 
     .triangle {
         display: flex;
         border: 1px solid white;
         background-color: white;
-        top: 10%;
-        right: -150%;
+        top: -150%;
+        right: 5%;
         height: 40px;
         width: 40px;
         position: absolute;
@@ -973,7 +970,7 @@ i:hover {
 
 
     .triangle-add {
-        right: 5%;
+        top: 10%;
     }
 
     .nav-mob>a {
@@ -1037,7 +1034,7 @@ i:hover {
     }
 
     .l1,
-    .l2 {
+    .r2 {
         height: 575px;
     }
 
@@ -1049,19 +1046,19 @@ i:hover {
     .l1>h3,
     .l1>a,
     .l1>p,
-    .l2>h3,
-    .l2>a,
-    .l2>p,
-    .l3>h4,
-    .l3>p,
+    .r2>h3,
+    .r2>a,
+    .r2>p,
     .r3>h4,
-    .r3>p {
+    .r3>p,
+    .l3>h4,
+    .l3>p {
         text-align: center;
         width: 100%;
         padding: 0;
     }
 
-    .section3>.r3>h4 {
+    .section3>.l3>h4 {
         color: black;
     }
 
@@ -1070,25 +1067,25 @@ i:hover {
     }
 
     .l1>h3,
-    .l2>h3 .l3>h4,
-    .r3>h4 {
+    .r2>h3 .r3>h4,
+    .l3>h4 {
         font-size: 40px;
     }
 
     .l1>p,
-    .l2>p {
+    .r2>p {
         padding: 0 25px;
         font-size: 25px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 25px;
         font-size: 22px;
     }
 
-    .l3>p,
-    .r3>p {
+    .r3>p,
+    .l3>p {
         padding: 0 35px;
     }
 
@@ -1129,7 +1126,7 @@ i:hover {
         margin-top: 40px;
     }
 
-    .r3>h4 {
+    .l3>h4 {
         margin-top: 140px;
         padding: 0 20px;
     }
@@ -1152,7 +1149,7 @@ i:hover {
     }
 
     .section5>img {
-        width: 50%;
+        width: calc(100vw / 2);
     }
 
     .footer-nav {
