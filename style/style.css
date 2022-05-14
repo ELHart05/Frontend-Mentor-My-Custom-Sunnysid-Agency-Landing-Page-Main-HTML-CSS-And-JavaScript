@@ -208,6 +208,12 @@ section>div>h4 {
     align-items: center;
     justify-content: center;
     height: 630px;
+    transition: 1.2s;
+}
+
+.r3:hover {
+    background-size: 105%;
+    background-position: center top;
 }
 
 .l3 {
@@ -219,8 +225,13 @@ section>div>h4 {
     align-items: center;
     justify-content: center;
     height: 630px;
+    transition: 1.2s;
 }
 
+.l3:hover {
+    background-size: 105%;
+    background-position: center top;
+}
 
 .section4 {
     display: flex;
@@ -322,11 +333,13 @@ section>div>h4 {
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
+    overflow: hidden;
 }
 
 .section5>img {
     width: calc(100vw / 4);
 }
+
 
 footer {
     background-color: #80c8ba;
