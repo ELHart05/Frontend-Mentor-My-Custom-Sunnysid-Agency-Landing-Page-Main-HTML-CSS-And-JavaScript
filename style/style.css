@@ -211,11 +211,6 @@ section>div>h4 {
     transition: 1.2s;
 }
 
-.r3:hover {
-    background-size: 105%;
-    background-position: center top;
-}
-
 .l3 {
     background-image: url(../images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
@@ -226,11 +221,6 @@ section>div>h4 {
     justify-content: center;
     height: 630px;
     transition: 1.2s;
-}
-
-.l3:hover {
-    background-size: 105%;
-    background-position: center top;
 }
 
 .section4 {
